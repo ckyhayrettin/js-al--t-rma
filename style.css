@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  background-color: #fbf8f1;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#title {
+  text-align: center;
+  font-size: 50px;
+}
+
+#inputText {
+  width: 300px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+  border-radius: 10px;
+  background-color: #f7ecde;
+  color: purple;
+}
+#addTodo {
+  height: 45px;
+  width: 80px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  background-color: #e9dac1;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+#addTodo:hover {
+  background-color: #99a799;
+}
+#clearTodo {
+  height: 45px;
+  width: 100px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  background-color: #54bab9;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+#clearTodo:hover {
+  background-color: #99a799;
+}
+.to_dos {
+  margin-top: 25px;
+}
+.prg {
+  margin: 0px;
+  cursor: pointer;
+  font-size: 35px;
+  color: indigo;
+  text-transform: capitalize;
+}
